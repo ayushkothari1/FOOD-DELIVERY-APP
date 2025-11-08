@@ -73,6 +73,10 @@ img {
   text-align: center;
 }
 
+.mt-4 {
+  margin-top: 4rem;
+}
+
 /* HEADER STYLING */
 
 .navbar {
@@ -131,8 +135,7 @@ img {
 
 /*  */
 /* SECTION STYLING */
-/* 
- */
+/* section 1 */
 
 .hero-section {
   /* background: gold; */
@@ -140,7 +143,8 @@ img {
 }
 
 .content,
-.image-container {
+.image-container,
+.service-card {
   flex: 1;
   flex-basis: 300px;
 }
@@ -175,6 +179,7 @@ p {
   text-align: center;
   line-height: 3rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0 2px 1px;
+  transition: 0.3s ease-in-out;
 }
 
 .social-icon:hover {
@@ -182,6 +187,26 @@ p {
   color: var(--pure-white);
 }
 
+h5 {
+  font-size: 1.2rem;
+  color: var(--gold-finger);
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 3.7rem;
+  text-transform: capitalize;
+}
+h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: var(--lead);
+}
+
+.service-card h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
 /* FOOTER STYLING */
 
 /* Media quries */
@@ -226,7 +251,7 @@ p {
   }
 
   /* ------------section styling --------------------- */
-
+  /* hero--- styling */
   h1 {
     font-size: 3.6rem;
   }
@@ -241,5 +266,10 @@ p {
 
   .gap-4 {
     gap: 4rem;
+  }
+
+  /* ----Setion1 ----*/
+  h2 {
+    font-size: 3rem;
   }
 }
