@@ -286,6 +286,25 @@ h4 {
   text-align: center;
   line-height: 2.5rem;
 }
+
+/* section -4  */
+/*  */
+
+.app-container {
+  background: var(--hint-yellow);
+  padding: 3rem 6rem;
+  border-radius: 3rem;
+}
+
+.app-container h2 {
+  font-size: 4.5rem;
+}
+
+.app-container img {
+  width: 25rem;
+}
+
+/*  */
 /* FOOTER STYLING */
 
 /* Media quries */
