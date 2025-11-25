@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto Condensed", sans-serif;
-  /* border: 0.1rem solid red; */
+  border: 0.1rem solid red;
 }
 
 :root {
@@ -300,7 +300,11 @@ h4 {
   font-size: 4.5rem;
 }
 
-.app-container img {
+/* .app-image {
+  flex: 1;
+} */
+
+.app-image img {
   width: 25rem;
 }
 
