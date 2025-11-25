@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto Condensed", sans-serif;
-  border: 0.1rem solid red;
+  /* border: 0.1rem solid red; */
 }
 
 :root {
@@ -79,6 +79,10 @@ img {
 
 .mt-one-half {
   margin-top: 0.5rem;
+}
+
+.m-auto {
+  margin: auto;
 }
 
 /* HEADER STYLING */
@@ -296,15 +300,11 @@ h4 {
   border-radius: 3rem;
 }
 
-.app-container h2 {
+.app-container .content h2 {
   font-size: 4.5rem;
 }
 
-/* .app-image {
-  flex: 1;
-} */
-
-.app-image img {
+.app-container .image-container img {
   width: 25rem;
 }
 
@@ -373,5 +373,15 @@ h4 {
   /* ----Setion1 ----*/
   h2 {
     font-size: 3rem;
+  }
+
+  /* Section 4 */
+
+  .app-container {
+    padding: 2.2rem;
+  }
+
+  .app-container .content h2 {
+    font-size: 3.5rem;
   }
 }
