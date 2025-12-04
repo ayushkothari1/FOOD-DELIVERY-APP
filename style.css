@@ -250,6 +250,27 @@ h4 {
   padding: 1.3rem 0 2rem 0;
 }
 
+/* CART TAB STYLING  */
+/*  */
+/*  ----------*/
+
+.cart-tab {
+  background: var(--hint-yellow);
+  position: fixed;
+  inset: 0 0 0 auto;
+  width: 25rem;
+  padding-block: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-list {
+  flex: 1;
+  width: 100%;
+}
+
 /* ------ */
 
 /* section 3 */
@@ -357,11 +378,12 @@ input[type="email"]:focus {
 
 .footer-wrapper {
   flex: 1;
+  flex-basis: 150px;
 }
 
 .footer-wrapper:nth-child(1) {
   flex: 2;
-  flex-basis: 150px;
+  flex-basis: 300px;
 }
 
 .footer-wrapper .social-icon {
@@ -382,6 +404,7 @@ input[type="email"]:focus {
 .footer-link:hover {
   color: var(--lead);
 }
+
 /* ------ */
 
 /*  */
