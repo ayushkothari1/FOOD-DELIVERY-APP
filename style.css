@@ -271,6 +271,56 @@ h4 {
   width: 100%;
 }
 
+.total-container {
+  width: 100%;
+  background: var(--gold-finger);
+  text-align: center;
+  margin-block: 1rem;
+  padding-block: 1rem;
+}
+
+.total-container h4 {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.btn-container .btn {
+  background: var(--lead);
+  transition: 0.3s ease-in-out;
+}
+
+.btn-container .btn:hover {
+  background: var(--gold-finger);
+  color: var(--lead);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.item .item-image img {
+  width: 5rem;
+}
+
+.item h4 {
+  font-size: 1.3rem;
+  color: var(--lead);
+  padding: 0.7rem 1rem;
+}
+
+.flex-item {
+  display: flex;
+  align-items: center;
+}
+
+.item .item-total {
+  font-weight: 400;
+  margin-top: 0.3rem;
+}
+
 /* ------ */
 
 /* section 3 */
