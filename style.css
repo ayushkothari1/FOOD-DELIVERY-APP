@@ -264,7 +264,7 @@ h4 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  display: none;
+  /* display: none; */
 }
 
 .cart-list {
@@ -307,9 +307,11 @@ h4 {
 }
 
 .item h4 {
-  font-size: 1.3rem;
+  /* white-space: pre; */
+  font-size: 1.03rem;
   color: var(--lead);
-  padding: 0.7rem 1rem;
+  padding: 0.1rem 1rem 0;
+  /* margin-right: 2%; */
 }
 
 .flex-item {
